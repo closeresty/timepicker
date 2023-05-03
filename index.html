@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Time Picker</title>
+</head>
+
+<body>
+  <h1>Devres</h1>
+  <div class="flex justify-center">
+    <div class="mt-2 p-5 w-40 bg-white rounded-lg shadow-xl">
+      <div class="flex">
+        <select id="select-dropdown">
+          <option>00</option>
+        </select>
+        <span class="text-xl mr-3">:</span>
+        <select id="minute-select"></select>
+        <select name="ampm" class="bg-transparent text-xl appearance-none outline-none">
+          <option value="am">AM</option>
+          <option value="pm">PM</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
